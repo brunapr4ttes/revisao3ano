@@ -1,0 +1,14 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color:aliceblue;
+    height: 100vh;
+}
+.form{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
