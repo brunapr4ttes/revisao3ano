@@ -1,0 +1,70 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color:aliceblue;
+    height: 100vh;
+}
+.form{
+
+    width: 500px;
+    height: 500px;
+    background-color: rgb(53, 140, 255);
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+.titulotabuada{
+    margin-top: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+    margin: 1em 1em;
+    border: 0px solid;
+    border-radius: 5px;
+}
+.titulotabuada:hover{
+    background-color: var(--blue);
+    color: var(--black);
+    font-size: 35px;
+}
+input{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.números{
+    margin-top: 20px;
+}
+.saidadados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+#btnMostrar{
+    width: 200px;
+    margin-top: 50px;
+    font-size: 17px;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+    margin: 1em 1em;
+    border: 0px solid;
+    border-radius: 5px;
+}
+#btnMostrar:hover{
+    background-color:rgb(0, 48, 90);
+    color: var(--black);
+    font-size: 18.8px;
+}
